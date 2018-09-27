@@ -28,7 +28,7 @@
                 }
           }
     }
-	//recyclerview和annotations版本号要大于等于24.0.0
+    //recyclerview和annotations版本号要大于等于24.0.0
     configurations.all {
          resolutionStrategy {
              force 'com.android.support:support-annotations:24.0.0'
@@ -47,7 +47,7 @@
 
 <pre><p>
       MingonghuiManager.getInstance()
-						//设置运行环境：true   生产环境   false  测试环境
+		 //设置运行环境：true   生产环境   false  测试环境
                         .setIsProduct(false)
                         .init(application);
 
