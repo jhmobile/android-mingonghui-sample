@@ -19,5 +19,5 @@
         android:layout_height="50dp"
         android:layout_marginTop="50dp"
         android:gravity="center"
-        android:text="测试环境" />
+        android:text="智慧劳务入口" />
 </LinearLayout>
