@@ -1,6 +1,6 @@
 ### 智慧劳务集成步骤
 
-### 当前最新版本：V1.0.1
+### 当前最新版本：V1.0.2
 
 ##### 1. 项目根目录build.gradle添加，如下：
 
@@ -37,7 +37,7 @@
     }
     dependencies {
               ......
-               compile "rn-android-basic:rn-mingonghui:1.0.1"
+               compile "rn-android-basic:rn-mingonghui:1.0.2"
     }
 
 </p></pre>
@@ -49,7 +49,7 @@
       MingonghuiManager.getInstance()
 		 //设置运行环境：true   生产环境   false  测试环境
                         .setIsProduct(false)
-                        .init(application,activity);
+                        .open(application,activity);
 
 </p></pre>
 

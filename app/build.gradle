@@ -6,7 +6,7 @@ android {
     defaultConfig {
         applicationId "mgh.jinhui365.com.android_mingonghui_sample"
         minSdkVersion 16
-        targetSdkVersion 23
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
         ndk {
@@ -32,7 +32,7 @@ configurations.all {
     }
 }
 dependencies {
-    compile "rn-android-basic:rn-mingonghui:1.0.1"
+    compile "rn-android-basic:rn-mingonghui:1.0.2"
 //    compile project(":mingonghui-library")
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
