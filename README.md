@@ -49,9 +49,9 @@
       MingonghuiManager.getInstance()
 		                //设置运行环境：true   生产环境   false  测试环境
                         .setIsProduct(false)
-                        //uid
+                        //uid:基座uid
                         .setUid("uid")
-                        //渠道id
+                        //channelId：云码通在统一账户的渠道id
                         .setChannelId("channelId")
                         .open(application,activity);
 
