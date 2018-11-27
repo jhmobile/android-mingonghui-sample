@@ -32,7 +32,7 @@ configurations.all {
     }
 }
 dependencies {
-    compile "rn-android-basic:rn-mingonghui:1.0.2"
+    compile "rn-android-basic:rn-mingonghui:1.0.3"
 //    compile project(":mingonghui-library")
     compile fileTree(dir: 'libs', include: ['*.jar'])
 

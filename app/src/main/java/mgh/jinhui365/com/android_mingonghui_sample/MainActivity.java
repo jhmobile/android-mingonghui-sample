@@ -21,6 +21,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
             case R.id.btn_native:
                 MingonghuiManager.getInstance()
                         .setIsProduct(false)
+                        .setUid("uid")
+                        .setChannelId("channelId")
                         .open(getApplication(), MainActivity.this);
                 break;
         }
