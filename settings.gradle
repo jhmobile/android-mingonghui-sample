@@ -1,3 +1,5 @@
 include ':app'
 //include ':mingonghui-library'
 //project(':mingonghui-library').projectDir = new File('../android-mingonghui-library/mingonghui-library')
+//include ':library'
+//project(':library').projectDir = new File('../rn-app-basic/android/library')

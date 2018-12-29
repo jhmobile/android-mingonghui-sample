@@ -29,10 +29,11 @@ configurations.all {
     resolutionStrategy {
         force 'com.android.support:support-annotations:24.0.0'
         force 'com.android.support:recyclerview-v7:24.0.0'
+//        force 'com.android.support:appcompat-v7:24.0.0'
     }
 }
 dependencies {
-    compile "rn-android-basic:rn-mingonghui:1.0.3"
+    compile "rn-android-basic:rn-mingonghui:1.1.0"
 //    compile project(":mingonghui-library")
     compile fileTree(dir: 'libs', include: ['*.jar'])
 

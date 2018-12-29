@@ -12,7 +12,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!\n我是智慧劳务SDK接入sample" />
-
+    <EditText
+        android:id="@+id/et_uid"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="输入uid"
+        android:textColor="@color/C2"
+        android:textColorHint="@color/C16"
+        android:layout_margin="20dp"/>
     <Button
         android:id="@+id/btn_native"
         android:layout_width="200dp"
