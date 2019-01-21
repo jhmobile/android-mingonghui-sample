@@ -1,12 +1,14 @@
 ### 智慧劳务集成步骤
 
-### 当前最新版本：V1.1.0
+### 当前最新版本：V1.1.1
 
 ##### 1. 项目根目录build.gradle添加，如下：
 
 <pre><p>
     allprojects {
      repositories {
+		//如果提示下载glide失败，建议添加阿里的公共仓库地址
+		maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
         ......
         maven { url "https://jitpack.io" }
         maven {
@@ -24,7 +26,7 @@
            defaultConfig {
                 ......
                 ndk {
-                    abiFilters "armeabi-v7a", "x86"
+                    abiFilters "armeabi-v7a"
                 }
           }
     }
@@ -37,7 +39,10 @@
     }
     dependencies {
               ......
-               compile "rn-android-basic:rn-mingonghui:1.1.0"
+               compile （"rn-android-basic:rn-mingonghui:1.1.1"）{
+                    exclude module: 'support-v4'
+                    exclude group: 'com.android.support', module: 'design'
+			   }
     }
 
 </p></pre>
